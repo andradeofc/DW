@@ -1,0 +1,339 @@
+dbody{
+	
+}
+
+.cabecalho{
+	
+	background-image: url('../img/foto10.jpg');
+	background-size:100%;
+	border-radius: 10px;
+	
+    background-repeat: no-repeat;
+    
+	background-attachment: scroll;
+	
+	width:100%;
+	height:600px;
+	
+}
+div.top{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+div.meio{
+	margin-top: 110px;
+	width: 100%;
+	height: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+div.fim{
+	width: 100%;
+	height: 175px;
+}
+
+div.logo{
+	
+	background-image: url('../img/logo-Vinicius.png');
+	background-repeat: no-repeat;
+    background-position: center top;
+	background-attachment: scroll;
+	width:350px;
+	height:200px;
+	margin-left: 42%;
+}
+
+div.bto-ini{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 20px;
+	margin-top: 10px;
+	list-style-type:none;
+}
+
+div.bto-ini a{
+		margin: 10px;
+		padding: 10px;
+		text-align: center;
+		text-transform: uppercase;
+		transition: 0.5s;
+		background-size: 200% auto;
+		color: rgb(0, 0, 0);
+	   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+		box-shadow: 0 0 10px #eee;
+		border-radius: 10px;
+		opacity: 0.6;
+		text-decoration:none
+}
+
+div.bto-ini a:hover{
+	background-position: right center;
+}
+
+nav.menu{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+	width: auto 0;
+	list-style-type:none;
+	
+}
+
+nav.menu ul a{
+	margin: 10px;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: rgb(0, 0, 0);
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+	box-shadow: 0 0 10px #eee;
+	border-radius: 10px;
+	opacity: 0.6;
+	text-decoration:none;
+}
+
+nav.menu ul a:hover{
+	background-position: right center;
+}
+
+.bto {
+	background-image: linear-gradient(to right, #ffffff 0%, #ffffff 51%, #000000 100%);
+  }
+
+div.line_1{
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 1px;
+	background-color: rgb(124, 124, 124);
+}
+
+div.line_2{
+	display: flex;
+	margin-left: 10px;
+	width: 99%;
+	height: 10px;
+	background-color: #3D3D3D;
+}
+
+div#msg {
+	font-family:'Cookie',cursive;
+	letter-spacing: -2px;
+    font-size: 4em;
+	font-weight: 600;
+	margin-left: 150px;
+	height: 300px;
+	width: 600px;
+	background: -webkit-linear-gradient( #d3d3d3, rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div#msg3 {
+	font-family:'Cookie',cursive;
+	text-align: center;
+	letter-spacing: -2px;
+    font-size: 3em;
+	font-weight: 600;
+	background: -webkit-linear-gradient( #d3d3d3, rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.redes-sociais{
+	height: 200px;
+	width: 300px;
+	margin: 50px;
+	justify-content: space-between;
+	
+	display: flex;
+}
+
+.youtube {
+	background-image: url('../img/logo-youtube.png');
+	background-size: 50px;
+	height: 50px;
+	width: 50px;
+}
+
+.facebook {
+	background-image: url('../img/logo-face.png');
+
+	background-size: 50px;
+	height: 50px;
+	width: 50px;
+}
+
+.instagram {
+	background-image: url('../img/logo-instagram.png');
+	background-size: 50px;
+	height: 50px;
+	width: 50px;
+}
+
+.twitter {
+	background-image: url('../img/logo-twitter.png');
+	background-size: 50px;
+	height: 50px;
+	width: 50px;
+}
+
+
+.box {
+	width: 30%;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.2);
+	padding: 30px;
+	border: 2px solid #fff;
+	border-radius: 20px/50px;
+	background-clip: padding-box;
+	text-align: center;
+  }
+  
+  .button {
+	font-size: 1em;
+	padding: 10px;
+	color: #fff;
+	border: 2px solid #686868;
+	border-radius: 20px/50px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+  }
+  .button:hover {
+	background: #686868;
+  }
+
+  div#contate-me{
+	margin-top: 75px;
+  }
+
+  div#msg2 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	align-items: center;	
+	
+}
+
+.texto2 {
+	color:  rgb(0, 0, 0);
+	font-size: 16px;
+	font-family: 'Bungee', cursive;
+	
+  }
+
+div.conteudo1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 1000px;
+	widows: 100%;
+	background-color: black;
+	opacity: 0.8;
+	margin-top: 10px;
+
+  }
+
+div.block1 ul{
+	background-image: url('../img/back1.jpg');
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+	margin-left: 80px;
+	width: 800px;
+	height: 528px;
+}
+
+div.block2{
+	background-image: url('../img/back2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+	margin-right: 80px;
+	width: 800px;
+	height: 528px;
+}
+
+div.block3{
+	background-image: url('../img/back3.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	margin-left: 80px;
+	width: 800px;
+	height: 528px;
+}
+
+div.block4{
+	background-image: url('../img/back4.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+	margin-right: 80px;
+	width: 800px;
+	height: 528px;
+}
+
+div.block1 ul:hover{
+	
+}
+
+div.rodape{
+	width: 100%;
+	height: 144px;
+	
+}
+div.text-rp{
+	background-color: rgb(124, 124, 124);
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+div.logo-rp{
+	background-image: url('../img/logo-Vinicius-rp.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: 1px;
+	width:350;
+	height:145px;
+	
+}
+.sobre{
+	display: flex;
+	
+}
+.mid-sobre{
+	background-color: #eee;
+	margin-top: 20px;
+	margin-left: 140px; 
+	height: 900px;
+	width:	 1500px;
+	padding: 20px;
+}
+
+.eu{
+	display: flex;
+	background-image: url('../img/eu.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+	border-radius: 100%;
+	margin-left: 37%;
+	height: 400px;
+	width: 400px;
+}
+
+.sobre-me{
+	margin-top: 50px;
+	text-align: center;
+}
